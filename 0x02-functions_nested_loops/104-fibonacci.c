@@ -22,6 +22,10 @@ int main(void)
 	for (i = 1; i < 91; i++)
 	{
 		printf("%lu", aft);
+		if (i !=90)
+		{
+			printf(",");
+		}
 		aft += bef;
 		bef = aft - bef;
 	}
@@ -41,4 +45,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}
+}i

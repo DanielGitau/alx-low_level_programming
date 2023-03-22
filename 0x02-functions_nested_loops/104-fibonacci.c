@@ -22,7 +22,7 @@ int main(void)
 	for (i = 1; i < 91; i++)
 	{
 		printf("%lu", aft);
-		if (i !=90)
+		if (i != 90)
 		{
 			printf(",");
 		}

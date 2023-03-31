@@ -5,7 +5,7 @@
  *    * Return: n value
  */
 char *leet(char *n)
-i{
+{
 	int i, j;
 	char s1[] = "aAeEoOtTlL";
 	char s2[] = "4433007711";

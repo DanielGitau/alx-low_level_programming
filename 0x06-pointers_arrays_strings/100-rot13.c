@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,7 +9,7 @@ nclude "main.h"
  */
 
 char *rot13(char *s)
-i{
+{
 	int i;
 	int j;
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";

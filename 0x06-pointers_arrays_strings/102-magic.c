@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
- * main - Entry point
- * Return: 0 success
- */
 
 int main(void)
 {
@@ -13,8 +9,8 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/**
-	 * * write your line of code here...
-	 * Remember:
+	 * main - write your line of code here...
+	 * Return: 0
 	 * - you are not allowed to use a
 	 *   - you are not allowed to modify p
 	 *   - only one statement

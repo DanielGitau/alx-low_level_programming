@@ -13,6 +13,6 @@ void free_list(list_t *head)
 		tmp = head->next;
 		free (head->str);
 		free (head);
-		head = temp;
+		head = tmp;
 	}
 }

@@ -1,4 +1,4 @@
-#include "lists.c"
+#include "lists.h"
 
 /**
  * listint_len - Returns the no. of elements

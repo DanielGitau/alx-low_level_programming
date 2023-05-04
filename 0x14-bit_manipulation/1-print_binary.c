@@ -13,7 +13,7 @@ void print_binary(unsigned long int n)
 
 	for (count = 0; count < 32; count++)
 	{
-		if n & msk)
+		if (n & msk)
 			_putchar('1');
 		else
 			_putchar('0');

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * print_binary - Converts from decimal to binary
@@ -11,10 +12,10 @@ void print_binary(unsigned long int n)
 	unsigned int max, i, sum;
 	unsigned int arr[32];
 
-	max = INT_MAX;
+	max = 2147483648;
 	arr[0] = n / max;
 
-	for (i = 1; 1 < 32; i++)
+	for (i = 1; i < 32; i++)
 	{
 		max /= 2;
 		arr[i] = (n / max) % 2;

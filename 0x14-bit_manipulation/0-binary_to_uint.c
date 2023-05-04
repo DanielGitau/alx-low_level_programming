@@ -1,16 +1,17 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * binary_to_unit - Converts from binary to unsigned int
+ * binary_to_uint - Converts from binary to unsigned int
  * @b: String containing binary number
  *
  * Return: Returns the base 10 number
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal_val = 0;
-	int j;
+	int j = 0;
 
 	if (b == NULL)
 		return (0);
